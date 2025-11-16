@@ -12,6 +12,7 @@ def client():
     """Create a test client for the FastAPI app"""
     return TestClient(app)
 
+# this is ac
 
 @pytest.fixture(autouse=True)
 def reset_activities():
